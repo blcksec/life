@@ -107,7 +107,7 @@ func main() {
 	l := NewLife(40, 15)
 	for i := 0; i < 300; i++ {
 		l.Step()
-		fmt.Print("\x0c", l) 
+		fmt.Print("\x0c", l)
 		time.Sleep(time.Second / 30)
 	}
 }
